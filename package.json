@@ -1,6 +1,5 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "lerna-repo",
   "scripts": {
     "start": "npx lerna bootstrap",
     "publish": "npx lerna version --exact && npx lerna publish"
