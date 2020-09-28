@@ -1,6 +1,6 @@
 {
   "name": "@kiter/project-2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "cao_ming <cao_ming@hunliji.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "url": "https://github.com/xycd1996/lerna-repo/issues"
   },
   "dependencies": {
-    "@kiter/project": "0.0.3"
+    "@kiter/project": "0.0.4"
   },
   "gitHead": "17fc7126e2b8ad0c4c178352d355b3960ce381da"
 }

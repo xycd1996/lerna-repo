@@ -1,9 +1,9 @@
 {
   "name": "demo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "@babel/core": "7.9.0",
-    "@kiter/project": "0.0.3",
+    "@kiter/project": "0.0.4",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
