@@ -6,5 +6,8 @@
     "publish": {
       "exact": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
