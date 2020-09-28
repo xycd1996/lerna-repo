@@ -1,0 +1,29 @@
+{
+  "name": "@kiter/project-2",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "cao_ming <cao_ming@hunliji.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xycd1996/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xycd1996/lerna-repo/issues"
+  },
+  "dependencies": {
+    "@kiter/project": "0.0.1"
+  }
+}

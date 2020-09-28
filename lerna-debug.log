@@ -1,10 +1,27 @@
 0 silly argv {
-0 silly argv   _: [ 'bootstrap' ],
+0 silly argv   _: [ 'version' ],
+0 silly argv   exact: true,
 0 silly argv   lernaVersion: '3.22.1',
 0 silly argv   '$0': 'C:\\Users\\Administrator\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js'
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath D:\code\lerna-repo
-3 error JSONError: Unexpected token } in JSON at position 3867 while parsing near '...act-app"    ]  },}' in packages\demo\package.json
-3 error     at module.exports (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\parse-json\index.js:26:19)
-3 error     at parse (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\load-json-file\index.js:15:9)
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly currentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed: git remote update
+10 error fatal: unable to access 'https://github.com/xycd1996/lerna-repo.git/': Failed to connect to github.com port 443: Timed out
+10 error error: Could not fetch origin
+10 error
+10 error Fetching origin
+10 error
+10 error     at makeError (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\execa\index.js:174:9)
+10 error     at Function.module.exports.sync (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\execa\index.js:338:15)
+10 error     at Object.execSync (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\child-process\index.js:26:16)
+10 error     at updateRemote (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\lib\is-behind-upstream.js:26:16)
+10 error     at isBehindUpstream (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\lib\is-behind-upstream.js:11:3)
+10 error     at VersionCommand.initialize (C:\Users\Administrator\AppData\Local\Yarn\Data\global\node_modules\@lerna\version\index.js:154:9)
