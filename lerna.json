@@ -1,13 +1,5 @@
 {
   "packages": ["packages/*"],
   "npmClient": "yarn",
-  "version": "independent",
-  "command": {
-    "publish": {
-      "exact": true
-    }
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+  "version": "independent"
 }
