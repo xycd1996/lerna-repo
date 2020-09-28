@@ -1,10 +1,11 @@
 {
-  "name": "lerna-repo",
+  "name": "kiter-lerna-repo",
   "scripts": {
     "start": "npx lerna bootstrap",
     "publish": "npx lerna version --exact && npx lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "version": "0.0.1"
 }
