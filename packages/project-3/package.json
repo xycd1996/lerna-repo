@@ -22,5 +22,9 @@
   },
   "bugs": {
     "url": "https://github.com/xycd1996/lerna-repo/issues"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4bd800c4e6fbbda482556598803f43469a20a6a3"
 }
