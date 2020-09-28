@@ -5,6 +5,9 @@
   "command": {
     "publish": {
       "exact": true
+    },
+    "create": {
+      "access": "public"
     }
   },
   "publishConfig": {
