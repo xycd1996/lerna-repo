@@ -1,5 +1,4 @@
 {
-  "name": "kiter-lerna-test",
   "scripts": {
     "start": "npx lerna bootstrap",
     "pub": "npx lerna version --exact && npx lerna publish"
