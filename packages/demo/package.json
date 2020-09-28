@@ -135,5 +135,6 @@
     "presets": [
       "react-app"
     ]
-  }
+  },
+  "gitHead": "cda0e319764af99b8e47b1570ce092f5bf8ee3c8"
 }
