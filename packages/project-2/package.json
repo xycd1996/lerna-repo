@@ -26,5 +26,8 @@
   "dependencies": {
     "@kiter/project": "^0.0.8"
   },
-  "gitHead": "17d6afc05eade48b770027cb091bd07355f3d3e1"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d85f72f4fa6fbc83455883f78aba8b9a74115c8d"
 }
